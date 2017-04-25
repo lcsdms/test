@@ -8,14 +8,14 @@
       <parameter name="Engine" value="InnoDB"/>
     </vendor>
   </table>
-  <table name="entity_relationship" idMethod="native"  phpName="EntityRelationship">
+  <table name="entity_relationship" idMethod="native" isCrossRef="true" phpName="EntityRelationship">
     <column name="entity_id" phpName="EntityId" type="INTEGER" primaryKey="true" required="true"/>
     <column name="entity_type" phpName="EntityType" type="VARCHAR" size="45" />
     <!--Has to be primaryKey to generate getRelationships on model-->
     <column name="relationship_id" phpName="RelationshipId" type="INTEGER" primaryKey="true" required="true"/>
     <foreign-key foreignTable="contact">
       <reference local="entity_id" foreign="id"/>
-      <reference local="entity_type" value="contact"/>
+      <reference local="entity_type" value="USER"/>
     </foreign-key>
     <foreign-key foreignTable="relationship" name="fk_entity_relationship_relationship">
       <reference local="relationship_id" foreign="id"/>
