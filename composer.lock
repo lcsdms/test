@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b0abcd5e4186fcc62aa04c9926f11fa",
-    "content-hash": "7cfcdb107a900dd163809b5dc0cf9962",
+    "hash": "b8ae741a1508d1104c4d82eb8a79c2c0",
+    "content-hash": "ddce6013d7c28554ae0b5a475e6cbe11",
     "packages": [
         {
             "name": "propel/propel",
-            "version": "dev-master",
+            "version": "2.0.0-alpha7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/Propel2.git",
-                "reference": "ff113cdbb09d248078906c89d8a13f5abc12fbeb"
+                "reference": "dc55788dd4a7945b8ddef4391474efaca06b067d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/ff113cdbb09d248078906c89d8a13f5abc12fbeb",
-                "reference": "ff113cdbb09d248078906c89d8a13f5abc12fbeb",
+                "url": "https://api.github.com/repos/propelorm/Propel2/zipball/dc55788dd4a7945b8ddef4391474efaca06b067d",
+                "reference": "dc55788dd4a7945b8ddef4391474efaca06b067d",
                 "shasum": ""
             },
             "require": {
@@ -28,7 +28,7 @@
                 "symfony/console": "~2.3||~3.0",
                 "symfony/filesystem": "~2.3||~3.0",
                 "symfony/finder": "~2.3||~3.0",
-                "symfony/validator": "~2.3||~3.0.0||~3.1.0||^3.2.4",
+                "symfony/validator": "~2.3||~3.0",
                 "symfony/yaml": "~2.3||~3.0"
             },
             "require-dev": {
@@ -70,7 +70,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2017-02-22 14:10:34"
+            "time": "2017-01-03 15:55:52"
         },
         {
             "name": "psr/log",
@@ -653,7 +653,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "propel/propel": 20
+        "propel/propel": 15
     },
     "prefer-stable": false,
     "prefer-lowest": false,

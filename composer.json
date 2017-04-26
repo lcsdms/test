@@ -10,6 +10,11 @@
     }
   ],
   "require": {
-    "propel/propel": "~2.0@dev"
+    "propel/propel": "2.0.0-alpha7"
+  },
+  "autoload": {
+    "psr-4": {
+      "":""
+    }
   }
 }
